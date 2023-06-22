@@ -1,0 +1,56 @@
+name: tesla_app
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+
+  fonts:
+     - family: gotham
+       fonts:
+         - asset: assets/fonts/Gotham Pro/gothampro.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_black.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_blackitalic.ttf
+           style: italic
+         - asset: assets/fonts/Gotham Pro/gothampro_bold.ttf
+           weight: 700
+         - asset: assets/fonts/Gotham Pro/gothampro_bolditalic.ttf
+           style: italic
+           weight: 700
+         - asset: assets/fonts/Gotham Pro/gothampro_italic.ttf
+           style: italic
+         - asset: assets/fonts/Gotham Pro/gothampro_light.ttf
+           weight: 300
+         - asset: assets/fonts/Gotham Pro/gothampro_lightitalic.ttf
+           weight: 300
+           style: italic
+         - asset: assets/fonts/Gotham Pro/gothampro_medium.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_mediumitalic.ttf
+           style: italic
